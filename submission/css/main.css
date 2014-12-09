@@ -1,7 +1,7 @@
 /* default */
 body {
     font-family: "Lucida Grande", sans-serif;
-    color: #666666;
+    color: #666;
 }
 
 /* header */
@@ -20,18 +20,20 @@ h2 {
 
 .subtitle {
     color: #f07c17;
-    font: bold 24px "Ludica Grande", sans-serif;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .text {
-    font: 16px/2 "Lucida Grande", sans-serif;
-    margin-top: 27px;
+    font-size: 16px;
+    line-height:  2;
+    margin-top: 30px;
 }
 
 .features {
     padding: 30px;
     margin-top: 30px;
-    border: 1px solid #cccccc;
+    border: 1px solid #ccc;
 }
 
 .second-row {
